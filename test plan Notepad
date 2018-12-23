@@ -1,0 +1,99 @@
+Notepad
+Version 1511 (OS Built 10586.1176)
+Test Plan
+
+Test Plan Identifier
+Test Plan 1.0 for testing Notepad, Version 1511 (OS Built 10586.1176). 
+This Test Plan is made in accordance with standard IEEE-829.
+Author: Myroslava Krugla.
+
+Introduction
+The goals of creation this Test Plan are:
+Describe the process of testing Notepad application
+Identify main steps of testing process
+Identify types of tests to be used
+Identify needed sources and time brackets
+Identify suspension criteria and item pass criteria
+Identify possible risks
+Appoint responsible persons
+
+Test Items
+Notepad is Microsoft Windows application providing the creation and changing text files. By default, Notepad creates, opens and saves documents with extension .txt. Notepad supports the encoding ANSI, UTF-8, Unicode, Unicode big endian. Notepad has font formatting and some basic options such as Find, Replace, Time/Date.
+
+Features To Be Tested
+
+Options to launch Notepad
+Functions:
+File creation
+File saving
+Text typing
+Font formatting
+File edition
+Find
+Replace
+Time/Date
+Print
+Usability
+Cross platforming
+Environment
+
+Features Not To Be Tested
+
+Performance Testing
+Installation Testing
+Regression Testing
+
+Approach
+
+For Notepad testing will be used manual Black Box testing. In order to decrease quantity of test cases where will be used Equivalence Class Partitioning testing.
+Testing process will be based on Dynamic Ad-hoc testing and divided into 4 main stages:
+Create check-list of testing functions
+Smoke and sanity testing for functional testing
+Positive and negative testing for non-functional testing
+Analysis of Bug report
+
+Item Pass/Fail Criteria
+The Completion criterions for this plan are:
+All functions are covered by test cases
+Executing at least 95% of test cases to pass
+Critical and major bugs are fixed, minor defects can be ignored
+Bug report is approved by PM
+
+Suspension Criteria and Resumption Requirements
+Testing process should be stopped if there is the blocker bug until it fixed.
+
+Test Deliverables
+
+Test Plan
+Check-list
+Test Cases
+Test Suites
+RTM
+Bug Report
+
+ Environmental Needs
+List of operating systems to check opening files in Notepad:
+Windows 10
+Windows XP
+Windows 8.
+
+ Responsibilities
+Responsible person for Test Plan creation and execution and Test Deliverables is Myroslava Krugla.
+
+ Schedule
+ 
+Milestone Task	Effort	Start Date	End Date	   
+Test Plan	3 story point	13/12	13/12	   
+Check List	1 story point	14/12	14/12	   
+Test Cases	2 story point	14/12	14/12	   
+Test Suites	2 story point	15/12	15/12	   
+RTM	1 story point	16/12	16/12	   
+Bug Report	1 story point	16/12	16/12	 
+
+ Risks and contingencies
+Possible risks while testing:
+Not enough human resources
+Not accurate task time evaluation.
+ 
+ Approvals
+PM, his deputy, tester.
